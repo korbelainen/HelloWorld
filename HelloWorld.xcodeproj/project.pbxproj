@@ -13,6 +13,7 @@
 		4725FC41206AC54500734D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4725FC40206AC54500734D92 /* Assets.xcassets */; };
 		4725FC44206AC54500734D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4725FC42206AC54500734D92 /* LaunchScreen.storyboard */; };
 		4725FC47206AC54500734D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4725FC46206AC54500734D92 /* main.m */; };
+		47B65DCB206B925F0043F32A /* SpeedCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B65DCA206B925F0043F32A /* SpeedCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4725FC43206AC54500734D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4725FC45206AC54500734D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4725FC46206AC54500734D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B65DC9206B925F0043F32A /* SpeedCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedCheck.h; sourceTree = "<group>"; };
+		47B65DCA206B925F0043F32A /* SpeedCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedCheck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4725FC38206AC54500734D92 /* AppDelegate.m */,
 				4725FC3A206AC54500734D92 /* ViewController.h */,
 				4725FC3B206AC54500734D92 /* ViewController.m */,
+				47B65DC9206B925F0043F32A /* SpeedCheck.h */,
+				47B65DCA206B925F0043F32A /* SpeedCheck.m */,
 				4725FC3D206AC54500734D92 /* Main.storyboard */,
 				4725FC40206AC54500734D92 /* Assets.xcassets */,
 				4725FC42206AC54500734D92 /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				4725FC3C206AC54500734D92 /* ViewController.m in Sources */,
 				4725FC47206AC54500734D92 /* main.m in Sources */,
+				47B65DCB206B925F0043F32A /* SpeedCheck.m in Sources */,
 				4725FC39206AC54500734D92 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
